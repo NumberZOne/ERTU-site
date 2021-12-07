@@ -2,15 +2,11 @@
     height: 800px;
 }
 
-.bg-header{
-        background-color: rgba(245, 243, 240, 1);
+.bg-header {
+    background-color: rgba(245, 243, 240, 1);
 }
 
-#menu2 {
-    height: 381px;
-}
-
-.pt-148{
+.pt-148 {
     padding-top: 148px;
 }
 
@@ -21,8 +17,25 @@
 
 .text-color-ertu {
     color: rgba(224, 204, 172, 1) !important;
-    }
+}
 
-    #menu{
-        width: 1170px;
-    }
+#menu1 {
+    height: 1219px;
+    padding-top: 28px;
+}
+
+.ch {
+    height: 450px;
+}
+
+.bg-none {
+    background-color: white;
+}
+
+#menu2 {
+    height: 381px;
+}
+
+footer {
+    height: 261px;
+}
