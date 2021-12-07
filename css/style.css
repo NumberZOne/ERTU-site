@@ -39,3 +39,29 @@
 footer {
     height: 261px;
 }
+
+.ms-100{
+    margin-left: 100px;
+}
+
+.me-100{
+    margin-right: 100px;
+}
+
+.border-none {
+    border: none !important;
+}
+
+.li-skills{
+    list-style-type: none;
+}
+
+.li-skills::before {
+    content: "\2022";
+    color: royalblue;
+    margin-left: -1em;
+}
+
+.button{
+    background-color:burlywood !important;
+}
