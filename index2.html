@@ -356,10 +356,15 @@
             </div>
 
             <div class="fs-5 mt-5 mb-5">
-                All Rights Reserved &copy; 2021 Ertuğrul Şümşet
+                All Rights Reserved &copy; <span id="demo"></span> Ertuğrul Şümşet
             </div>
         </div>
     </footer>
+<script>
+const d = new Date();
+document.getElementById("demo").innerHTML = d.getFullYear();
+</script>
+
 </body>
 
 </html>
