@@ -7,9 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ERTU</title>
 
-    <!--CSS -->
-    <link rel="stylesheet" href="../ERTU-site/css/style.css">
-
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -20,10 +17,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
 
     <!-- Inter Font Family CSS -->
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+    <!--CSS -->
+    <link rel="stylesheet" href="./css/style.css">
 
 </head>
 
@@ -32,25 +31,19 @@
     <!--SECTION HEADER-->
 
     <header class="bg-header" id="header">
-        <nav class="navbar navbar-expand-md navbar-light py-5">
-            <div class="container">
-                <a class="navbar-brand fs-1" style="font-family: 'Kaushan Script', cursive;" href="#">Ertuğrul
-                    Şümşet</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+        <nav class="navbar navbar-expand navbar-light py-5">
+            <div class="container ">
+                <a class="navbar-brand fs-1 logo " href="./index.html">Ertuğrul Şümşet</a>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto fs-4 fw-bolder  ">
                         <li class="nav-item">
-                            <a class="nav-link px-4" href="#">About</a>
+                            <a class="nav-link px-4 " href="./index2.html">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link px-4" href="#">Work</a>
+                            <a class="nav-link px-4 " href="#">Work</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link px-4" href="#">Contact</a>
+                            <a class="nav-link px-4 " href="./index3.html">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -60,17 +53,21 @@
         <div class="light-bg" id="header-menu">
             <div class="container">
                 <div class="d-flex h-100 flex-column text-dark justify-content-center">
-                    <h4 class="display-1 text-center pt-148 fw-bolder lh-sm ls-1">Experience, Product
+                    <h4 class="display-1 text-center pt-120 fw-bolder lh-sm ls-1 nav-text-color">Experience, Product
                         <br> and Brand Design</h4>
-                    <p class="lead text-center pt-4 fs-3"><span class="fw-bold"> UX & UI Designer</span> live in <span
-                            class="fw-bold"> Istanbul</span>. I am interested UX & UI
+                    <p class="lead text-center pt-4 mt-1 fs-3"><span class="fw-bold"> UX & UI Designer</span>live in
+                        <span class="fw-bold"> Istanbul</span>. I am interested UX & UI
                         <br> Design,
                         Digital Painting,
                         Animation and Brand design.</p>
-                    <a class="text-decoration-none text-color-ertu text-center pt-5 mt-5 fs-3" href="#">See More</a>
-                    <button class="border-0 text-center bg-header pt-2">
-                        <img src="../ERTU-site/img/see-more.png" alt="">
-                    </button>
+                    <div class="text-center pt-5 mt-4 fs-3">
+                        <a class="text-decoration-none text-color-ertu" href="./index3.html">See More</a>
+                    </div>
+                    <div class="border-0 bg-header pt-2 pb-5 mb-5 d-inline text-center">
+                        <a href="index2.html">
+                            <img src="./img/see-more.png" alt="">
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -78,57 +75,57 @@
 
     <!--SECTION MENU-->
 
-    <section id="menu1" class="generic mb-5">
-        <div class="container">
-            <h2 class="display-5 text-dark mb-5 text-center fw-bolder pb-5 pt-5 mt-5">Selected Works</h2>
-            <div class="row">
-                <div class="ch col-6 d-md-block ps-5 pe-4">
+    <section id="menu1" class="generic">
+        <div class="container pt-4 mt-3 pb-5 mb-5">
+            <h1 class=" fw-bold text-center  pb-5 mb-4 pt-5 mt-5">Selected Works</h1>
+            <div class="row row-card-pad-x">
+                <div class="ch col-6  card-photo pe-4">
                     <div class="card bg-light border-0 rounded-0 ">
                         <img src="./img/proje foto 1.png" class="card-img-top" alt="">
-                        <div class="card-body bg-none  ps-3">
+                        <div class="card-body bg-none px-0">
                             <h6 class=" text-dark fs-2 fw-bolder mb-4 pt-4">
                                 1 Projeckt Title
                             </h6>
-                            <h5 class="card-title fw-normal text-dark">
+                            <h5 class="card-title fs-3 text-secondary ">
                                 Role
                             </h5>
                         </div>
                     </div>
                 </div>
-                <div class="ch col-6 d-md-block pe-5 ps-4">
+                <div class="ch col-6  card-photo ps-4">
                     <div class="card bg-light border-0 rounded-0 ">
                         <img src="./img/proje foto 2.png" class="card-img-top" alt="">
-                        <div class="card-body bg-none ps-3">
+                        <div class="card-body bg-none px-0">
                             <h6 class=" text-dark fs-2 fw-bolder mb-4 pt-4">
                                 2 Projeckt Title
                             </h6>
-                            <h5 class="card-title fw-normal text-dark ">
+                            <h5 class="card-title fs-3 text-secondary">
                                 Role
                             </h5>
                         </div>
                     </div>
                 </div>
-                <div class="ch col-6 d-md-block ps-5 pe-4 pt-5">
+                <div class="ch col-6 card-photo pe-4 pt-5">
                     <div class="card bg-light border-0 rounded-0 ">
                         <img src="./img/proje foto 3.png" class="card-img-top" alt="">
-                        <div class="card-body bg-none ps-3">
+                        <div class="card-body bg-none px-0">
                             <h6 class=" text-dark fs-2 fw-bolder mb-4 pt-4">
                                 3 Projeckt Title
                             </h6>
-                            <h5 class="card-title fw-normal text-dark">
+                            <h5 class="card-title fs-3 text-secondary pb-3">
                                 Role
                             </h5>
                         </div>
                     </div>
                 </div>
-                <div class="ch col-6 d-md-block ps-4 pe-5 pt-5">
+                <div class="ch col-6 card-photo ps-4 pt-5">
                     <div class="card bg-light border-0 rounded-0 ">
                         <img src="./img/proje foto 4.png" class="card-img-top" alt="">
-                        <div class="card-body bg-none ps-3">
+                        <div class="card-body bg-none px-0">
                             <h6 class=" text-dark fs-2 fw-bolder mb-4 pt-4">
                                 4 Projeckt Title
                             </h6>
-                            <h5 class="card-title fw-normal text-dark">
+                            <h5 class="card-title fs-3 text-secondary pb-3">
                                 Role
                             </h5>
                         </div>
@@ -140,15 +137,19 @@
 
     <!--SECTION MENU 2-->
 
-    <section class="dark-bg" style="background-color: rgba(51, 51, 51, 1);" id="menu2">
-        <div class="container h-100 d-flex flex-column justify-content-center ">
-            <div class="d-flex flex-column align-items-center text-light pt-5 ">
-                <h1 class="mx-auto fw-bold" style="font-family:'Inter', sans-serif;">
-                    Hit me up if you're interested in working
-                    together
-                </h1>
-                <div class="d-grid gap-2 col-2 px-1 mx-auto">
-                    <button class="btn btn-primary rounded-pill mt-5 h-75 fs-5" type="button">CONNECT WITH ME</button>
+    <section class="generic" style="background-color: rgba(51, 51, 51, 1);">
+        <div class="container h-100 d-flex flex-column justify-content-center py-5 mt-5">
+            <div class="d-flex flex-column align-items-center text-light pt-5 pb-5">
+                <p class="mx-auto pt-5 mt-3" style="font-size: 34px;">
+                    <b>Hit me up if you're interested in working together</b>
+                </p>
+                <div class="d-grid pb-5 mb-5">
+                    <a href="./index3.html">
+                        <button class="fs-4 btn btn-primary rounded-pill mt-5 h-75 fs-5" style="width: 305px;"
+                            type="button">
+                            CONNECT WITH ME
+                        </button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -157,17 +158,25 @@
     <!--SECTION FOOTER-->
 
     <footer class="bg-header">
-        <div class="container h-100 d-flex flex-column justify-content-center text-center py-4 lead">
+        <div class="bg-header container h-100 d-flex flex-column justify-content-center text-center pt-5">
             <div>
-                <img class="p-4" src="../ERTU-site/img/icon_dribbble.png" alt="">
-                <img class="p-4" src="../ERTU-site/img/icon_behance.png" alt="">
-                <img class="p-4" src="../ERTU-site/img/icon_twitter.png" alt="">
-                <img class="p-4" src="../ERTU-site/img/icon_linkedin.png" alt="">
+                <button class="border-0 bg-header px-4">
+                    <img class=" " src="../ERTU-site/img/icon_dribbble.png" alt="">
+                </button>
+                <button class="border-0 bg-header px-4">
+                    <img class="" src="../ERTU-site/img/icon_behance.png" alt="">
+                </button>
+                <button class="border-0 bg-header px-4">
+                    <img class="" src="../ERTU-site/img/icon_twitter.png" alt="">
+                </button>
+                <button class="border-0 bg-header px-4">
+                    <img class="" src="../ERTU-site/img/icon_linkedin.png" alt="">
+                </button>
             </div>
-            <br>
-            <br>
-            <br>
-            <div style="font-family:'Inter', sans-serif;">All Rights Reserved &copy; 2022 Ertuğrul Şümşet</div>
+
+            <div class="fs-5 mt-5 mb-5">
+                All Rights Reserved &copy; 2021 Ertuğrul Şümşet
+            </div>
         </div>
     </footer>
 </body>
